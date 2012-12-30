@@ -1,5 +1,6 @@
 --smart-case
 --follow
+-G^(?!vendor/\.bundle).*$
 
 # See ack-grep --help=types for a list of valid types.
 

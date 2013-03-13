@@ -1,7 +1,8 @@
+export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$ "
+
+alias ll='ls -laG'
 alias gu='iconv -f gbk -t utf-8'
 alias ug='iconv -f utf-8 -t gbk'
-
-export TERM=xterm-256color
 
 function repeat() {
   number=$1

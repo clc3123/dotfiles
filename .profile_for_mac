@@ -11,3 +11,5 @@ function repeat() {
     $@ &
   done
 }
+
+PATH=$PATH:/usr/local/sbin

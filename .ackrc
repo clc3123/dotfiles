@@ -1,6 +1,6 @@
 --smart-case
 --follow
---ignore-dir=vendor/.bundle
+# --ignore-dir=vendor/.bundle
 
 # See ack-grep --help=types for a list of valid types.
 

@@ -9,4 +9,4 @@
 # template
 --type-set=template=.slim,.haml
 # stylesheet
---type-set=stylesheet=sass,.scss,.css,.less
+--type-set=stylesheet=.sass,.scss,.css,.less

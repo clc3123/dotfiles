@@ -2,11 +2,13 @@
 --follow
 # --ignore-dir=vendor/.bundle
 
-# See ack-grep --help=types for a list of valid types.
+# See ack --help=types for a list of valid types.
 
 # markdown
---type-set=plaintext=.md,.markdown,.mkdn,.textile,.rst,.txt
+--type-add=plaintext:ext:md,mkd,mkdn,markdown,textile,rst,txt
 # template
---type-set=template=.slim,.haml
+--type-add=html:ext:slim,haml,erb,hjs,hbs,handlebars
+# javascript
+--type-add=js:ext:coffee
 # stylesheet
---type-set=stylesheet=.sass,.scss,.css,.less
+--type-add=css:ext:sass,scss,less

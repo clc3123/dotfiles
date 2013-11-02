@@ -15,3 +15,5 @@
 [user]
 	name = clc3123
 	email = clc3123@gmail.com
+[push]
+	default = simple

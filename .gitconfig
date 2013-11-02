@@ -5,6 +5,11 @@
 	ci = commit
 	st = status
   br = branch
+  df = diff
+  dc = diff --cached
+  lg = log --pretty=format:"%h%x09%an%x09%ad%x09%s" --date=short
+  lp = log -p
+  lol = log --graph --decorate=short --pretty=oneline --abbrev-commit
 [color]
 	ui = true
 [user]

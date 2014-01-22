@@ -1,5 +1,6 @@
 [core]
 	editor = vim
+	excludesfile = /Users/clc3123/.gitignore_global
 [alias]
 	co = checkout
 	ci = commit
@@ -17,3 +18,9 @@
 	email = clc3123@gmail.com
 [push]
 	default = simple
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true

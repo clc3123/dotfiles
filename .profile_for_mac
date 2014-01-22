@@ -4,8 +4,6 @@ alias ll='ls -laG'
 alias gu='iconv -f gbk -t utf-8'
 alias ug='iconv -f utf-8 -t gbk'
 
-PATH=$PATH:/usr/local/sbin
+PATH=$PATH:/usr/local/sbin:$HOME/.packer/bin
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting

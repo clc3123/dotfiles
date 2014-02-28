@@ -1,5 +1,6 @@
 --smart-case
 --follow
+# Use this in project .ackrc
 # --ignore-dir=vendor/.bundle
 
 # See ack --help=types for a list of valid types.
